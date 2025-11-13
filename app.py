@@ -46,7 +46,7 @@ def recommend(movie):
     return recommended_movies, recommended_posters
 
 
-# 💫 Dark Mode Gen-Z CSS
+
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
@@ -111,7 +111,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# UI
+
 st.title("⚡ Movie Recommender System")
 
 selected_movie_name = st.selectbox("🎥 Pick a movie:", movies['title'].values)
